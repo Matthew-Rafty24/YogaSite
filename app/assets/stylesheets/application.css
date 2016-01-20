@@ -1,0 +1,431 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+ @import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+ @import url("//fonts.googleapis.com/css?family=Titillium+Web");
+ @import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+ @import url('//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+
+
+
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    text-rendering: optimizeLegibility;
+    height: 100%;
+    width: 100%;
+}
+section {
+padding-top: 80px;
+}
+#contact h1 {
+	font-family: 'Roboto Slab',serif;
+	font-weight: 700;
+  font-size: 40;
+  color: #000;
+  text-align: center;
+  position: relative;
+  letter-spacing: -3px!important;
+  margin: 0px 0px 30px;
+    
+}
+
+table, td {
+	background-color: 00ff00;
+	width: 400px;
+	height: 300px;
+	margin: 0 auto;
+	padding: 0;
+	border: none;
+}
+
+p{
+  font-family: 'Titillium Web', sans-serif;
+  font-size:14px;
+  padding:0px 20px;
+}
+
+.col-xs-3 {
+  float: right;
+  margin-top: 30px;
+}
+
+/*Header landing*/
+
+.header-image {
+	background-image: url(../images/bg-img.jpg);
+	background-size: 100%;
+  	background-attachment: fixed;
+  	display: block;
+  	margin: 0px 0px 0px 0px;  
+  	width: 100%;
+  	min-height: 740px;
+
+}
+
+/*General styles*/
+
+.content {
+  	position: relative;
+  	text-align:center; 
+    width: 100%;
+
+}
+
+
+.bio {
+	height: 20em;
+	width: 20em;
+	margin: 0;
+  display: inline-block;
+	padding-top: 5em;
+	float: right;
+}
+
+.img-center {
+    margin: 0 auto;
+
+}
+/*Navbar*/
+#main-nav {
+	transition: color .2s ease-out;
+    transition-property: color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    transition-delay: initial;
+    background: none;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: none;
+
+}
+
+.navbar-brand {
+    margin: 0 auto;
+    margin-left: 30px;
+	font-weight: 700;
+	letter-spacing: 4px;
+	font-size: 18px;
+	border: 2px solid #000;
+}
+
+.navbar-default .navbar-brand {
+	color: #000;
+}
+
+.navbar-default {
+	padding: 25px;
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #000;
+	font-weight: 700;
+	font-size: 16px;
+	margin-right: 30px;
+}
+
+a:hover {
+	text-decoration: none;
+	border: 2px solid;
+}
+
+a, a:visited, a:link {
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+	text-decoration: none;
+	outline: none;
+    outline-color: initial;
+    outline-style: transparent;
+    outline-width: initial;
+}
+
+
+/*Sections Styles*/
+
+.gallery {
+  min-height: 520px;
+  background-color: #EEE;
+  margin-top: 0;
+  padding-top: 0;
+
+}
+/*About div*/
+
+#about {
+  background-color: #fff;
+  width: 100%;
+  position: relative;
+  height: 580px;
+  padding: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  z-index: 1;
+}
+#about .vs-photo  { 
+  position: relative;
+  float: left;
+  padding: 0 auto;
+}
+
+.about-quote {
+  position: relative;
+    text-align: center;
+    color: #000;
+    margin-top: 60px;
+    padding: 20px 45px 40px;
+    border-top: 10px solid #e7e7e7;
+    border-bottom: 10px solid #e7e7e7;
+}
+.about-quote blockquote {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 30px;
+}
+.about-quote cite {
+    font-size: 10px;
+    font-style: normal;
+}
+.about img {
+    margin-bottom: 40px;
+    border: 15px solid transparent;
+    box-shadow: 5px 3px 0 rgba(255,255,255,.6);
+}
+/*Carousel*/
+#quote-carousel 
+{
+  padding: 0 auto;
+  margin-top: 0 auto;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #000;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+#quote-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #quote-carousel 
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+      margin-top: 30px;
+    }
+    
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) { 
+    
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;  
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.skills {
+	padding-bottom: 100px;
+    height: auto;
+    width: 100%;
+    height: 520px;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+
+}
+
+
+/*Headings/Content*/
+
+.jumbotron {
+	background-color: transparent;
+	color: #000;
+	text-align: center;
+	position: relative;
+	top: 180px;
+	left: 100px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.jumbotron p {
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    opacity: 0;
+}
+
+/*Skills */
+
+
+.col-lg-4 {
+	text-align: center;
+}
+
+.skills_content {
+	h2 {
+		font-size: 1.1rem;
+		text-transform: uppercase;
+	}
+	h3 {
+		font-size: 1.35em;
+		font-weight: 400;
+		margin-bottom: .5em;
+	}
+	}
+	p {
+		margin: 0 0 .75em 0;
+	}
+
+/*Contact Section*/
+
+#contact {
+  background-color: #EEE;
+
+
+}
+.vs-photo {
+  float: left; 
+  width: 416px;
+  height: auto;
+  margin: 50px 0px 0px 50px;
+  display: relative;
+  display: inline-block;
+}
+
+
+
+
+
+.lead {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 45px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    color: #000;
+}
+
+
+/*Contact social list*/
+
+
+/*Footer*/
+
+	.copyright {
+    background-color: #fff;
+		padding: 2em;
+		float: right;
+		font-size: .9em;
+		margin: 0 auto;
+	}
+}
+
+
+/* MEDIA Queries 
