@@ -53,11 +53,11 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="hover"><a href="#about" class="scrollto">About</a></li>
+            <li class="hover"><a href="#about" class="scrollto">About Me</a></li>
             <li class="hover"><a href="#gallery">Gallery</a></li>
-            <li class="hover"><a href="#skills">What i do</a></li>
+            <li class="hover"><a href="#skills">What I Do</a></li>
             <li class="hover"><a href="#">Blog</a></li>
-            <li class="hover"><a href="#contact">Contact</a></li>
+            <li class="hover"><a href="#contact">Contact Me</a></li>
           </ul>
         </div>
       </div>
@@ -77,7 +77,6 @@
 <div class="col-lg-6 col-lg-offset-3">
 <h1 id="startchange" style="font-size: 63px;">Welcome to YogaWithVicky.</h1>
 <h2>I make people fall in love with Yoga. It's my passion.</h2>
-<p style="font-size: 32px;">Have a look around and see what i do!</p>
 </div>
 </div>
 </div>
@@ -91,18 +90,18 @@
   <div class="container">
     <div class="row">
     <div class="col-sm-12">
-    <h1>My Name is Vicky and i'm a yoga teacher.</h1>
+    <h1>About Me</h1>
     <img class="vs-photo" src="<%= asset_path 'about.jpg' %>" alt="Photo of Vicky">
     <p class="bio">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </div>
-    </div>
-    </div>
-<div class="container">    
-<div class="about-quote">
-  <blockquote>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </blockquote>
+    <p class="bio">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <div class="about-quote">
+  <blockquote><em>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</em></blockquote>
   <cite> Someone who knows about yoga.</cite>
+          </div>
   </div>
-</div>
+    </div>
+    </div>
+
   </section> <!-- About end -->
 
 
@@ -110,15 +109,18 @@
 <section id="gallery" class="gallery">
 <div class="container">
 <div class="row">
+<div class="col-sm-12">
 <h1>Gallery</h1>
+<p>Some pictures of my exploits.</p>
 <table>
   <tr>
-  <td><img src="#"></td>
-  <td><img src="#"></td> 
-  <td><img src="#"></td> 
-  <td><img src="#"></td>    
+  <td><img class="img-responsive" src="#"></td>
+  <td><img class="img-responsive" src="#"></td> 
+  <td><img class="img-responsive" src="#"></td> 
+  <td><img class="img-responsive" src="#"></td>    
   </tr>
 </table>
+</div>
 </div>
 </div>
 
@@ -126,7 +128,7 @@
 <div class="container">
   <div class="row">
     <div class='col-md-offset-2 col-md-8 text-center'>
-    <h2>What people say about my yoga</h2>
+    <h2>What People Say About My Classes</h2>
     </div>
   </div>
   <div class='row'>
@@ -165,7 +167,7 @@
                 </div>
                 <div class="col-sm-9">
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.</p>
-                  <small>Someone famous</small>
+                  <small>Some famous Yoga Person</small>
                 </div>
               </div>
             </blockquote>
@@ -200,7 +202,8 @@
 <div class="container">
 <div class="row">
 <div class="col-sm-12">
-    <h1>Some things i know about</h1>
+    <h1>What I Do</h1>
+    <h2>Some Stuff I Know About</h2>
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
   </div>
   </div>
@@ -233,7 +236,7 @@
 <div class="container">
 <div class="row">
 <div class="col-sm-12 col-lg-12 ">
-			<h1>Contact</h1>
+			<h1>Contact Me</h1>
 			<div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 			</div>
 </div>
@@ -243,14 +246,14 @@
     <!-- Contact Photo -->
     <div class="container-fluid">
     <div class="row">
-    <img class="vs-photo" src="<%= asset_path 'about.jpg' %>" alt="Photo of Vicky">
+    <img class="vs-photo" src="<%= asset_path 'contact.jpg' %>" alt="Photo of Vicky">
     
-    <div class="col-xs-3">
-          <h3>Say hi</h3>
+    <div class="contact-info">
+          <h3>Say Hi</h3>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
         </div><!-- col -->
 
-<div class="col-xs-3">
+<div class="contact-info">
           <h3>Contact Information</h3>
           <p><span class="icon icon-home"></span> Some Address <br/>
             <span class="icon icon-phone"></span> + 00000<br/>
