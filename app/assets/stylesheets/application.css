@@ -32,6 +32,7 @@ body {
 }
 section {
 	padding-top: 60px;
+	padding-bottom: 60px;
 	height: 620px;
 
 }
@@ -86,7 +87,7 @@ section h2 {
 	text-align: center;
 	position: relative;
 	top: 180px;
-	left: 100px;
+	/*left: 100px;*/
     overflow: hidden;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -431,7 +432,7 @@ table, td {
   width: 30%;
   min-height: 1px;
   padding-right: 15px;
-  padding-left: 15px;
+  padding-left: -15px;
   float: right;
   margin-top: 30px;
 }
@@ -450,9 +451,6 @@ table, td {
 }
 
 
-/*Contact social list*/
-
-
 /*Footer Section Styles*/
 
 	.copyright {
@@ -462,6 +460,16 @@ table, td {
 		font-size: .9em;
 		margin: 0 auto;
 	}
+}
+
+/*Social Links*/
+
+.social-wrapper {
+  text-align: center;
+}
+
+.social-inner {
+  margin: 20px auto;
 }
 
 
