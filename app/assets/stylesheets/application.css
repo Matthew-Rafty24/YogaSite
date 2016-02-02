@@ -138,7 +138,6 @@ section h2 {
     background-origin: initial;
     background-clip: initial;
     background-color: none;
-
 }
 
 .navbar-brand {
@@ -165,6 +164,8 @@ section h2 {
 	font-weight: 700;
 	font-size: 18px;
 	margin-right: 30px;
+  background-color: transparent;
+} 
 }
 
 .fluid-container a:first-letter {
@@ -183,8 +184,8 @@ a, a:visited, a:link {
 	text-decoration: none;
 	outline: none;
     outline-color: initial;
-    outline-style: transparent;
     outline-width: initial;
+    background-color: transparent; 
 }
 
 /*-----------------------
