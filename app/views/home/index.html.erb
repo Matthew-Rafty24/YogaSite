@@ -19,7 +19,7 @@
     <div class="row">
     <div class="col-sm-12">
     <h1>About Me</h1>
-    <img class="vs-photo" src="<%= asset_path 'http://res.cloudinary.com/yogawithvicky/image/upload/e_saturation/v1454466855/about-compressor_mspgfq.jpg' %>" alt="Photo of Vicky">
+    <img class="vs-photo img-responsive" src="<%= asset_path 'http://res.cloudinary.com/yogawithvicky/image/upload/e_saturation/v1454466855/about-compressor_mspgfq.jpg' %>" alt="Photo of Vicky">
     <p class="bio">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
     <p class="bio">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         <div class="about-quote">
@@ -174,22 +174,26 @@
     <!-- Contact Photo -->
     <div class="container-fluid">
     <div class="row">
+        <div class="col-xs-12 col-md-4">
     <img class="vs-photo" src="<%= asset_path 'http://res.cloudinary.com/yogawithvicky/image/upload/v1454466867/contact-compressor_f1fssq.jpg' %>" alt="Photo of Vicky">
-    
-    <div class="contact-info">
-          <h3>Say Hi</h3>
+</div>
+          <div class="col-xs-12 col-md-4">    
+      <!-- <div class="contact-info"> -->
+            <h3>Say Hi</h3>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        </div><!-- col -->
+        <!-- </div> -->
+        </div>
 
-
-<div class="contact-info">
+        <div class="col-xs-12 col-md-4">
+<!-- <div class="contact-info"> -->
           <h3>Contact Information</h3>
           <p><span><i class="fa fa-at fa-2x"></i></span><br>Vicky@yogawithvicky.com<br/>
             <span><i class="fa fa-mobile fa-2x"></i></span><br>+61(0)456061227<br/>
             <span><i class="fa fa-twitter fa-2x"></i></span><br>@yogawithvicky<br/>
             <span><i class="fa fa-facebook fa-2x"></i></span><br>www.facebook.com/yogawithvicky<br/>
           </p>
-        </div><!-- col -->
+        </div>
     </div>
     </div>
+<!--     </div> -->
 </section>

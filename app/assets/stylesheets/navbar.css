@@ -39,7 +39,7 @@
 	font-weight: 700;
 	font-size: 18px;
 	margin-right: 30px;
-  background-color: transparent;
+  	background-color: transparent;
 } 
 
 .fluid-container a:first-letter {
@@ -47,7 +47,7 @@
 }
 
 a:hover {
-	text-decoration: none;
 	border: 2px solid;
+	color: #000;
 }
 
