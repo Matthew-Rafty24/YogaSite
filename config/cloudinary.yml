@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: yogawithvicky
+  api_key: '671371479442949'
+  api_secret: 30a8ydnq4i6SfOxdZ9ogEYYaEh8
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: yogawithvicky
+  api_key: '671371479442949'
+  api_secret: 30a8ydnq4i6SfOxdZ9ogEYYaEh8
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: yogawithvicky
+  api_key: '671371479442949'
+  api_secret: 30a8ydnq4i6SfOxdZ9ogEYYaEh8
+  enhance_image_tag: true
+  static_image_support: false

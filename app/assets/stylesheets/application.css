@@ -71,13 +71,14 @@ section h2 {
 /*Header/Landing Styles*/
 
 .header-image {
-	background-image: url(../images/bg-img.jpg);
+	background-image: url("http://res.cloudinary.com/yogawithvicky/image/upload/v1454466863/bg-img-compressor_m83rvj.jpg");
 	background-size: 100%;
   	background-attachment: fixed;
   	display: block;
   	margin: 0px 0px 0px 0px;  
   	width: 100%;
   	min-height: 740px;
+    background-repeat: no-repeat;
 
 }
 
@@ -123,70 +124,6 @@ section h2 {
 
 }
 
-/*----------------------
--------Nav Styles-------
-----------------------*/
-#main-nav {
-    background: none;
-    background-image: initial;
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: initial;
-    background-repeat-x: initial;
-    background-repeat-y: initial;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: none;
-}
-
-.navbar-brand {
-    margin: 0 auto;
-    margin-left: 30px;
-	font-weight: 700;
-	letter-spacing: 4px;
-	font-size: 18px;
-	border: 2px solid #000;
-}
-
-.navbar-default .navbar-brand {
-	color: #000;
-}
-
-.navbar-default {
-	padding: 25px;
-	background-color: transparent;
-	border-color: transparent;
-}
-
-.navbar-default .navbar-nav > li > a {
-	color: #000;
-	font-weight: 700;
-	font-size: 18px;
-	margin-right: 30px;
-  background-color: transparent;
-} 
-}
-
-.fluid-container a:first-letter {
-	text-transform: uppercase;
-}
-
-a:hover {
-	text-decoration: none;
-	border: 2px solid;
-}
-
-a, a:visited, a:link {
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	transition: all 0.5s;
-	text-decoration: none;
-	outline: none;
-    outline-color: initial;
-    outline-width: initial;
-    background-color: transparent; 
-}
 
 /*-----------------------
 -----Section Styles------
@@ -264,15 +201,15 @@ table, td {
 	background-color: 00ff00;
 	position: relative;
 	margin: 0 auto;
-	margin-top: 30px;
+	margin-top: 20px;
 	margin-bottom: 0px;
 	padding: 0 auto;
 	border: none;
 }
 
 #gallery img {
-	width: 150px;
-	height: 150px;
+	width: 100%;
+	height: 200px;
 	padding: 20px;
 }
 
@@ -281,7 +218,7 @@ table, td {
 #quote-carousel 
 {
   padding: 0 auto;
-  margin-top: 0 auto;
+  margin-top: 10px;
 }
 
 /* Control buttons  */
@@ -291,7 +228,7 @@ table, td {
   color: #000;
   font-size: 2.3em;
   text-shadow: none;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 /* Previous button  */
 #quote-carousel .carousel-control.left 
@@ -454,13 +391,17 @@ table, td {
 
 /*Footer Section Styles*/
 
-	.copyright {
-    background-color: #fff;
-		padding: 2em;
-		float: right;
-		font-size: .9em;
-		margin: 0 auto;
-	}
+.copyright {
+  background-color: #fff;
+	padding: 2em;
+	float: right;
+	font-size: .9em;
+	margin: 0 auto;
+}
+
+#copyright-footer {
+  height: 50px !important;
+  /*overflow: hidden;*/
 }
 
 /*Social Links*/
@@ -473,5 +414,5 @@ table, td {
   margin: 20px auto;
 }
 
+/*Footer*/
 
-/* MEDIA Queries 
