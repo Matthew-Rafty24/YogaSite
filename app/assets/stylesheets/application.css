@@ -57,6 +57,7 @@ section h1 {
 	font-size:48px;
     font-weight:600;
     letter-spacing:0.05em;
+    margin: 50 auto;
 }
 
 section h2 {
@@ -111,19 +112,13 @@ section h2 {
 
 }
 
-.vs-photo {
-  float: left; 
+.vs-photo { 
   width: 450px;
   height: auto;
-  margin: 50px 0px 0px 50px;
-  display: relative;
+  margin: 0 auto;
   display: inline-block;
 }
 
-.img-center {
-    margin: 0 auto;
-
-}
 
 
 /*-----------------------
@@ -137,7 +132,6 @@ section h2 {
   background-color: #fff;
   width: 100%;
   position: relative;
-  height: 580px;
   padding: 0 auto;
   text-align: center;
   overflow: hidden;
@@ -150,7 +144,6 @@ section h2 {
 	width: 600px;
 	margin: 0 auto;
     display: inline-block;
-	padding-top: 40px;
 	float: right;
 }
 
@@ -173,10 +166,8 @@ section h2 {
 }
 .about img {
   position: relative;
-  float: left;
   padding: 0 auto;
     margin-bottom: 40px;
-    margin-left: -60px;
 }
 
 /*Gallery Section*/
@@ -361,19 +352,16 @@ p {
     
 }
 #contact .vs-photo {
-	width: 30%;
+	height: 100%;
+  width: 350px;
 	margin-top: 30px;
   	padding-left: 15px;
 }
 
-.contact-info {
+#contact .col-md-4 {
   position: relative;
   text-align: center;
-  width: 30%;
-  min-height: 1px;
   padding-right: 15px;
-  padding-left: -15px;
-  float: right;
   margin-top: 30px;
 }
 
