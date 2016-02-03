@@ -1,0 +1,54 @@
+/*----------------------
+-------Nav Styles-------
+----------------------*/
+#main-nav {
+    background: none;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: none;
+}
+
+.navbar-brand {
+    margin: 0 auto;
+    margin-left: 30px;
+	font-weight: 700;
+	letter-spacing: 4px;
+	font-size: 18px;
+	border: 2px solid #000;
+}
+
+.navbar-default .navbar-brand {
+	color: #000;
+}
+
+.navbar-default {
+	padding: 25px;
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #000;
+	font-weight: 700;
+	font-size: 18px;
+	margin-right: 30px;
+  background-color: transparent;
+} 
+}
+
+.fluid-container a:first-letter {
+	text-transform: uppercase;
+}
+
+a:hover {
+	text-decoration: none;
+	border: 2px solid;
+}
+
