@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5,h6 {
     margin:0 0 20px;
 }
 
-p{
+p {
   font-family: 'Titillium Web', sans-serif;
   font-size:16px;
   line-height: 24px;
@@ -75,12 +75,12 @@ section h2 {
 .header-image {
 	background-image: url("http://res.cloudinary.com/yogawithvicky/image/upload/e_auto_color/v1454466863/bg-img-compressor_m83rvj.jpg");
 	background-size: 100%;
-  	background-attachment: fixed;
-  	display: block;
-  	margin: 0px 0px 0px 0px;  
-  	width: 100%;
-  	min-height: 740px;
-    background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: block;
+  margin: 0px 0px 0px 0px;  
+  width: 100%;
+  min-height: 740px;
+  background-repeat: no-repeat;
 
 }
 
@@ -349,8 +349,8 @@ p {
   color: #000;
   text-align: center;
   position: relative;
-    
 }
+
 #contact .vs-photo {
 	height: 100%;
   width: 350px;
@@ -364,36 +364,14 @@ p {
   padding-right: 15px;
   margin-top: 30px;
 }
+/*Fotter Styles*/
 
-
-
-
-.lead {
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 45px;
-    margin-top: 45px;
-    margin-bottom: 45px;
-    color: #000;
-}
-
-
-/*Footer Section Styles*/
-
-.copyright {
+footer {
   background-color: #fff;
-	padding: 2em;
-	float: right;
-	font-size: .9em;
-	margin: 0 auto;
+  height: 45px;
+  color: #000;
+  text-align: center;
 }
-
-#copyright-footer {
-  height: 50px !important;
-  /*overflow: hidden;*/
-}
-
 /*Social Links*/
 
 .social-wrapper {
@@ -401,8 +379,6 @@ p {
 }
 
 .social-inner {
-  margin: 20px auto;
+  margin: 0 auto;
 }
-
-/*Footer*/
 

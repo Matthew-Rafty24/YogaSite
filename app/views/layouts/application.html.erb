@@ -13,14 +13,16 @@
 <body data-spy="scroll" data-target="#main-nav" data-offset="400">
  	<%= render 'layouts/navbar' %>
 	<%= yield %>
-
-	<footer id="copyright-footer">
-		<p class="copyright">&copy;2016 Matthew Raft</p>		
-	</footer>
+<!-- Footer -->
+<footer id="main-footer">
+    <p class="copyright">&copy;2016 Matthew Raft</p>
+  </footer>
+  <!-- SmoothScrolljs -->
 <script>
 smoothScroll.init({
     speed: 1000, 
     easing: 'easeInOutCubic', 
+    offset: 60,
 });
 </script>
 
