@@ -170,11 +170,27 @@ section h2 {
     margin-bottom: 40px;
 }
 
+/*Class Dates*/
+
+#classes { 
+  background-color: #EEE;
+  width: 100%;
+  position: relative;
+  padding: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#classes p {
+  text-align: center !important;
+}
+
 /*Gallery Section*/
 
 .gallery {
   min-height: 520px;
-  background-color: #EEE;
+  background-color: #fff;
   margin-top: 0;
 }
 
@@ -182,6 +198,10 @@ section h2 {
   color: #000;
   text-align: center;
   position: relative;
+}
+
+#gallery h2 {
+  margin-top: 20px;
 }
 
 #gallery p {
@@ -306,37 +326,6 @@ table, td {
         width: 20px;
         height: 20px;
     }
-}
-
-/*Expertise Section*/
-
-.skills {
-    height: auto;
-    width: 100%;
-    position: relative;
-    background-color: #fff;
-    overflow: hidden;
-
-}
-
-.col-lg-4 {
-	text-align: center;
-}
-
-.skills_content {
-	h2 {
-		font-size: 1.1rem;
-		text-transform: uppercase;
-	}
-	h3 {
-		font-size: 1.35em;
-		font-weight: 400;
-		margin-bottom: .5em;
-	}
-}
-
-p {
-	margin: 0 0 .75em 0;
 }
 
 /*Contact Section Styles*/
